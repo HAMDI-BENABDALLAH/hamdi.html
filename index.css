@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(40, 43, 94, 0.8);
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+    
+
+ul li{
+    padding: 10px;
+  background-color: while;
+}
+a{
+    color: beige;
+    -moz-column-rule: 30px;
+    
+}
+header{
+
+}
+
+main{
+
+}
+footer{
+    p{
+    text-allign:reigh
+    }
+}
