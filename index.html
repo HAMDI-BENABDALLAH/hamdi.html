@@ -5,44 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projet workshop</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="nature">
     <header>
-<nav>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#description">Description</a></li>
-        <li><a href="#World">World</a></li>
+ <nav class="topnav">
+    <ul class="topnav2">
+        <li class="home1"><a href="#home">Home</a></li>
+        <li class="about2"><a href="#about">About</a></li>
+        <li class="work3"><a href="#work">Work</a></li>
+        <li class ="resume4"><a href="#resume">Resume</a></li>
+        <li class="cntact5"><a href="#contact">Contact</a></li>
+        <li class="desc6"><a href="#description">Description</a></li>
+        <li class="world7"><a href="#World">World</a></li>
     </ul>
-</nav>
+
+    
+ </nav>
     </header>
-    <hr/>
     <main>
-<div id="home">
+<div1 id="home">
     <h1>Home</h1>
-    <p>Many beginners in the field of web and web development still
-     do not realize the difference between both web development and 
-     web page development, in this article we will explain the 
-     difference between the two fields, and how you can choose between them.
+    <p class="rounded">Many beginners in the field of web and web development <br/>still
+     do not realize the difference between both web <br/>development and 
+     web page development, in this article <br/>we will explain
     </p>
-</div>
+</div1>
+
 <div id="about">
    <h1>about</h1>
-  <vedio>
+  <vedio controls>
     <iframe width="350" height="350" src="https://www.youtube.com/embed/EPjP3MXdrmM" title="أنس جابر الى ثمن نهائي ويمبلدون على الفرنسة ديان باري , نقاط رائعة و الفرحة بالفوز" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </vedio>
 </div>
 <div id="work">
-   <h2>Work</h2>
-    <img src=" https://oktob.io/storage/20309/top11.png" width="350" reight="350">
+   <h1>Work</h1>
+   <center>
+    <img src=" https://oktob.io/storage/20309/top11.png" class="img-fluid" >
+  </center>
 </div>
 <div id="resume">
-<h2>Resume</h2>
+<h1>Resume</h1>
 <table border="1">
     <tr>
         <th>title</th>
@@ -69,33 +72,31 @@
 </table>
 </div>
 <div id="contact">
-    <h2>contact</h2>
+    <h1>contact</h1>
     <form>
         <label for="email">email</label><br>
-        <input type="email" placeholder="email"><br>
+        <input class="form-control col-md-6" type="email" placeholder="email"><br>
         <label for="password">password</label><br>
-        <input type="password" placeholder="passowrd"><br>
+        <input class="form-control col-md-6" type="password" placeholder="passowrd"><br>
         <label for="number">number</label><br>
-        <input type="number" placeholder="number"><br>
+        <input class="form-control col-md-6" type="number" placeholder="number"><br>
         <button type="submit">click here</button><br>
     </form>
 </div>
 <div id="description">
     <h1>Description</h1>
     <ol>
-        <li>html</li>
+        <li >html</li>
         <li>php</li>
-        <li>js</li>
-        <ol type ="a">
-            <li>window</li>
-            <li>console</li>
-            <li>browser</li>
-        </ol>
-
+        <li>js</li>  
+         <ol type ="a">
+        <li>window</li>
+        <li>console</li>
+        <li>browser</li>  
     </ol>
 </div>
 <div id="World">
-    <h2>World</h2>
+    <h1>World</h1>
     <audio controls>
         <source src="./audio/Kalimba.mp3.mp3" type="audio/ogg">
 
@@ -103,10 +104,13 @@
 
     </main>
     <hr/>
-    <footer>
-        <h1>hamdiiiiiiiii</h1>
+    <footer class="foot1">
+        <div>       
         <p>copyrights @hamdi</p>
+        
         <p>hamdi.benabd89@gmail.com</p>
+      </div>
+        
 
     </footer>
 </body>

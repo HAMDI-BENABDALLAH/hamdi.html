@@ -1,0 +1,171 @@
+.nature{ 
+  background-image:url(web.jpg);
+  background-attachment: fixed;
+
+ }
+ .topnav {
+  overflow: hidden;
+  background-color: #333;
+ font-size: large;
+ font-family: fantasy;
+ list-style: none;
+}
+.topnav2{
+  list-style: none;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+ 
+/*
+ .topnav{
+  overflow: hidden;
+  background-color: #333;
+
+}
+  li {
+    float: left;
+  }  
+
+  li{
+    display: block; 
+    float: left;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   margin:10px;
+   text-decoration: none;
+   display: block;
+   font-size: 20px;
+ }
+
+  .home1{
+    float: left;
+  }
+  .about2{
+    float: left;
+  }
+  .work3{
+    float: left;
+    
+  }
+  .resume4{
+    float: left;
+  }
+  .contact5{
+    float: left111;
+  }
+  .desc6{
+    float: left;
+  }
+  .world7{
+    float: left;
+  }
+  
+  li a{
+    float: left;
+     display: block; 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin:10px;
+    text-decoration: none;
+    display:none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color:blue;
+  }
+  
+   h1{ background-color: blue;
+    text-align: center;
+  }
+
+  #home{
+      width: 300px;
+      padding: 50px;
+      margin: 20px;
+    } 
+  
+      .rounded{
+        background-color: black;
+        width: 300px;
+        border: 15px solid white;
+        padding: 50px;
+        margin: 20px;
+        letter-spacing: 5px;
+        color: beige;
+      }
+     
+      img {
+        background-image: url(" https://oktob.io/storage/20309/top11.png");
+        width: 450px;px;
+        height: 350px;
+       
+       
+      }
+      .table{
+        color: blanchedalmond;
+        font-family: arial;
+        font-size: larger;
+      }
+      .des6{
+    display: block; 
+   width: 20px;
+   right: 20px;
+   font-family: arial;
+   padding: 15px 15px;
+   margin:20px;
+   text-decoration: none;
+   display:none
+      }
+      ol{
+    display: block; 
+    overflow: auto;
+   color: white;
+   text-align:left;
+   padding: 14px 16px;
+   margin:10px;
+   font-size: 20px;
+   font-family:Fantasy;
+      }
+
+p .dotted{
+    border-style: dotted;
+     } 
+hr{
+  color:black;
+}
+.foot{
+  padding: 30px;
+  color:#333;
+}
+
+div p{
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family:Arial;
+}  
+a:hover{
+  background-color:blue;
+}
